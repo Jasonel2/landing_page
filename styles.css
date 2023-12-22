@@ -3,9 +3,9 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 0;
+    
 
 }
-
 
 .header {
     background-color: #1F2937;
@@ -104,8 +104,13 @@ a {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    gap: 90px;
+    gap: 300px;
     background-color: #3882F6;
+    margin: 100px;
+    
+    
+    border-radius: 10px;
+    text-align: center;
 }
 
 .sm-action-container {
@@ -113,6 +118,7 @@ a {
     flex-direction: column;
     text-align: left;
     color: white;
+    justify-content: center;
 }
 .action-button {
     color: white;
