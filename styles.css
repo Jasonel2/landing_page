@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0;
+
 }
 
 
@@ -49,9 +51,11 @@ a {
 }
 
 .box {
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
     border: #3882F6 solid;
+    border-width: 3px;
+    border-radius: 10px
 }
 
 .info {
@@ -60,11 +64,61 @@ a {
     padding: 30px;
     color: #1F2937;
     font-size: 36px;
+    font-weight: bolder;
 }
 
 .text {
-    width: 120px;
+    width: 110px;
     font-size: 13px;
     padding-top: 10px;
     padding-bottom: 100px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    width: 750px;
+    text-align: left;
+    display:flex;
+    justify-content: center;
+    font-style: italic;
+    
+}
+
+.author {
+    width: 750px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 90px;
+    background-color: #3882F6;
+}
+
+.sm-action-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+.action-button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
 }
