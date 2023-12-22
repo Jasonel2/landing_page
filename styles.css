@@ -10,8 +10,9 @@ body {
 .header {
     background-color: #1F2937;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 340px;
 }
 
 ul {
@@ -104,13 +105,14 @@ a {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    gap: 300px;
+    gap: 270px;
     background-color: #3882F6;
-    margin: 100px;
-    
-    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 370px;
+    margin-right: 370px;
     border-radius: 10px;
-    text-align: center;
+
 }
 
 .sm-action-container {
@@ -127,4 +129,51 @@ a {
     border-radius: 8px;
     width: 90px;
     height: 30px;
+}
+
+
+.main-second-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    height:200px;
+    color: #F9FAF8;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 70px 100px 70px 100px;
+    gap: 70px;
+}
+
+.img {
+    background-color: #989da6;
+    color: #F9FAF8;
+    height: 210px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.text-awesome {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+#awesome {
+    color: #F9FAF8;
+    border: none;
+    width: 100px;
 }
